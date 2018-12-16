@@ -1,4 +1,4 @@
-package com.tsunazumi.sfgpetclinic.sfgpetclinic.model;
+package com.tsunazumi.sfgpetclinic.model;
 
 public class Vet extends Person {
 }

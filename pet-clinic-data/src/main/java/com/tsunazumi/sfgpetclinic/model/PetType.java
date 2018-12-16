@@ -1,6 +1,6 @@
-package com.tsunazumi.sfgpetclinic.sfgpetclinic.model;
+package com.tsunazumi.sfgpetclinic.model;
 
-public class PetType {
+public class PetType extends BaseEntity {
 
   private String name;
 

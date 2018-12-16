@@ -1,6 +1,6 @@
-package com.tsunazumi.sfgpetclinic.sfgpetclinic.model;
+package com.tsunazumi.sfgpetclinic.model;
 
-public class Person {
+public class Person extends BaseEntity {
   private String firstName;
   private String lastName;
 
