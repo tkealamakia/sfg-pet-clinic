@@ -4,9 +4,11 @@ import com.tsunazumi.sfgpetclinic.model.Pet;
 import com.tsunazumi.sfgpetclinic.model.PetType;
 import com.tsunazumi.sfgpetclinic.service.PetService;
 import com.tsunazumi.sfgpetclinic.service.PetTypeService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetTypeServiceMap extends AbstractMapService<PetType, Long> implements PetTypeService {
 
   @Override
